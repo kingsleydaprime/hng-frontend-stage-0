@@ -1,93 +1,104 @@
+<!-- index.html -->
 <!doctype html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Profile Card - Kingsley Ihemelandu</title>
-    <link rel="stylesheet" href="style.css" />
+    <title>Home - Kingsley Ihemelandu</title>
+    <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
-    <article data-testid="test-profile-card" class="profile-card">
-      <header class="profile-header">
-        <figure class="avatar-container">
-          <img
-            data-testid="test-user-avatar"
-            src="https://pbs.twimg.com/profile_images/1967537594805174272/6CJKsNp7.jpg"
-            alt="Kingsley Ihemelandu, Software Engineer and Founder of Spectroniq Limited"
-          />
-        </figure>
-        <h2 data-testid="test-user-name" class="user-name">
-          Kingsley Ihemelandu
-        </h2>
-      </header>
-
-      <p data-testid="test-user-bio" class="user-bio">
-        Software Engineer | Founder of Spectroniq Limited @spectroniq |
-        Passionate about growth | Host of Growing with Kingsley Podcast
-      </p>
-
-      <p data-testid="test-user-time" class="user-time">Loading...</p>
-
-      <nav data-testid="test-user-social-links" class="social-links">
-        <ul class="social-list">
-          <li>
-            <a
-              data-testid="test-user-social-twitter"
-              href="https://twitter.com/kingsleydaprime"
-              target="_blank"
-              rel="noopener noreferrer"
-              aria-label="Twitter profile"
-            >
-              Twitter
-            </a>
-          </li>
-          <li>
-            <a
-              data-testid="test-user-social-linkedin"
-              href="https://www.linkedin.com/in/kingsleydaprime"
-              target="_blank"
-              rel="noopener noreferrer"
-              aria-label="LinkedIn profile"
-            >
-              LinkedIn
-            </a>
-          </li>
-          <li>
-            <a
-              data-testid="test-user-social-github"
-              href="https://github.com/kingsleydaprime"
-              target="_blank"
-              rel="noopener noreferrer"
-              aria-label="GitHub profile"
-            >
-              GitHub
-            </a>
-          </li>
+    <header class="site-header">
+      <nav class="main-nav" role="navigation" aria-label="Main navigation">
+        <ul class="nav-list">
+          <li><a href="index.html" class="nav-link active">Home</a></li>
+          <li><a href="about.html" class="nav-link">About</a></li>
+          <li><a href="contact.html" class="nav-link">Contact</a></li>
         </ul>
       </nav>
+    </header>
 
-      <section class="hobbies-section">
-        <h3>Hobbies</h3>
-        <ul data-testid="test-user-hobbies" class="hobbies-list">
-          <li>Coding innovative solutions</li>
-          <li>Hosting podcasts on personal growth</li>
-          <li>Playing Soccer</li>
-          <li>Reading on leadership</li>
-          <li>Playing musical instruments</li>
-        </ul>
-      </section>
+    <main class="main-content">
+      <article data-testid="test-profile-card" class="profile-card">
+        <header class="profile-header">
+          <figure class="avatar-container">
+            <img
+              data-testid="test-user-avatar"
+              src="https://pbs.twimg.com/profile_images/1967537594805174272/6CJKsNp7.jpg"
+              alt="Kingsley Ihemelandu, Software Engineer and Founder of Spectroniq Limited"
+            />
+          </figure>
+          <h2 data-testid="test-user-name" class="user-name">
+            Kingsley Ihemelandu
+          </h2>
+        </header>
 
-      <section class="dislikes-section">
-        <h3>Dislikes</h3>
-        <ul data-testid="test-user-dislikes" class="dislikes-list">
-          <li>Stagnation in personal development</li>
-          <li>Poor code quality</li>
-          <li>Inefficiency in processes</li>
-          <li>Negativity in teams</li>
-          <li>Exceptional loudness</li>
-        </ul>
-      </section>
-    </article>
+        <p data-testid="test-user-bio" class="user-bio">
+          Software Engineer | Founder of Spectroniq Limited @spectroniq |
+          Passionate about growth | Host of Growing with Kingsley Podcast
+        </p>
+
+        <p data-testid="test-user-time" class="user-time">Loading...</p>
+
+        <nav data-testid="test-user-social-links" class="social-links">
+          <ul class="social-list">
+            <li>
+              <a
+                data-testid="test-user-social-twitter"
+                href="https://twitter.com/kingsleydaprime"
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="Twitter profile"
+              >
+                Twitter
+              </a>
+            </li>
+            <li>
+              <a
+                data-testid="test-user-social-linkedin"
+                href="https://www.linkedin.com/in/kijuchihe"
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="LinkedIn profile"
+              >
+                LinkedIn
+              </a>
+            </li>
+            <li>
+              <a
+                data-testid="test-user-social-github"
+                href="https://github.com/kijuchihe"
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="GitHub profile"
+              >
+                GitHub
+              </a>
+            </li>
+          </ul>
+        </nav>
+
+        <section class="hobbies-section">
+          <h3>Hobbies</h3>
+          <ul data-testid="test-user-hobbies" class="hobbies-list">
+            <li>Coding innovative solutions</li>
+            <li>Hosting podcasts on personal growth</li>
+            <li>Building startups</li>
+            <li>Reading on leadership</li>
+          </ul>
+        </section>
+
+        <section class="dislikes-section">
+          <h3>Dislikes</h3>
+          <ul data-testid="test-user-dislikes" class="dislikes-list">
+            <li>Stagnation in personal development</li>
+            <li>Poor code quality</li>
+            <li>Inefficiency in processes</li>
+            <li>Negativity in teams</li>
+          </ul>
+        </section>
+      </article>
+    </main>
 
     <script src="script.js"></script>
   </body>
